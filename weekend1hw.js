@@ -140,21 +140,20 @@
 // Do Arrays guarantee those things will be in order? Arrays guarantee the order that you put the elements in
 // What real-life thing could you model with an array? Breeds of cats
 
-
 // B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes.
-const quotes = ['hi there', 'goodbye', 'how are you']
-
-// 🔴 Commit.
+// const quotes = ['hi there', 'goodbye', 'how are you']
 
 // C. Accessing elements
 // Given the following array const randomThings = [1, 10, "Hello", true]
-
 // How do you access the 1st element in the array?
-
 // Change the value of "Hello" to "World".
-
 // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+const randomThings = [1, 10, "Hello", true]
+console.log(randomThings[0]);
+randomThings[2] = "world"
+console.log(randomThings)
+
 
 // 🔴 Commit.
 
