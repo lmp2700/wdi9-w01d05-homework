@@ -149,23 +149,22 @@
 // How do you access the 1st element in the array?
 // Change the value of "Hello" to "World".
 // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
-const randomThings = [1, 10, "Hello", true]
-console.log(randomThings[0]);
-randomThings[2] = "world"
-console.log(randomThings)
-
-
-// 🔴 Commit.
+// const randomThings = [1, 10, "Hello", true]
+// console.log(randomThings[0]);
+// randomThings[2] = "world"
+// console.log(randomThings)
 
 // D. Change values
 // Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-
 // What would you write to access the 3rd element of the array?
-
 // Change the value of "Github" to "Octocat"
-
 // Add a new element, "Cloud City" to the array.
-
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+console.log(ourClass[2])
+ourClass[4] = "Octocat"
+console.log(ourClass)
+ourClass.push('Cloud City')
+console.log(ourClass)
 // 🔴 Commit.
 
 // E. Mix It Up
