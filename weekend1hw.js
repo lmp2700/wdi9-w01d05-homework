@@ -159,26 +159,31 @@
 // What would you write to access the 3rd element of the array?
 // Change the value of "Github" to "Octocat"
 // Add a new element, "Cloud City" to the array.
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-console.log(ourClass[2])
-ourClass[4] = "Octocat"
-console.log(ourClass)
-ourClass.push('Cloud City')
-console.log(ourClass)
-// 🔴 Commit.
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// console.log(ourClass[2])
+// ourClass[4] = "Octocat"
+// console.log(ourClass)
+// ourClass.push('Cloud City')
+// console.log(ourClass)
 
 // E. Mix It Up
 // Given the following array: const myArray = [5, 10, 500, 20]
-
 // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
-
 // Remove the 5 from the beginning of the array.
-
 // Add the string "Bob Marley" to the beginning of the array.
-
 // Remove the string of your choise from the end of the array.
-
-// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method 
+// return anything?
+const myArray = [5, 10, 500, 20]
+myArray.push('Egon', 'lovely')
+console.log(myArray)
+myArray.shift()
+console.log(myArray)
+myArray.unshift('Bob Marley')
+console.log(myArray)
+myArray.pop()
+console.log(myArray)
+console.log(myArray.reverse())
 
 // 🔴 Commit.
 
