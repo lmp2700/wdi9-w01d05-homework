@@ -68,8 +68,8 @@
 //         console.log("here are the keys");
 //     } if(age < 16) {
 //   console.log("Sorry you're too young")
-// };
-// console.log(age(21));
+// }
+// console.log(age(21))
 
 
 // II. Loops
@@ -174,38 +174,39 @@
 // Remove the string of your choise from the end of the array.
 // Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method 
 // return anything?
-const myArray = [5, 10, 500, 20]
-myArray.push('Egon', 'lovely')
-console.log(myArray)
-myArray.shift()
-console.log(myArray)
-myArray.unshift('Bob Marley')
-console.log(myArray)
-myArray.pop()
-console.log(myArray)
-console.log(myArray.reverse())
-
-// 🔴 Commit.
+// const myArray = [5, 10, 500, 20]
+// myArray.push('Egon', 'lovely')
+// console.log(myArray)
+// myArray.shift()
+// console.log(myArray)
+// myArray.unshift('Bob Marley')
+// console.log(myArray)
+// myArray.pop()
+// console.log(myArray)
+// console.log(myArray.reverse())
 
 // F. Biggie Smalls
 // Create a variable that contains an integer.
-
 // Write an if ... else statement that:
-
 // console.log()s "little number" if the number is entered is less than 100
-
 // console.log()s big number if the number is greater than or equal to 100.
 
 // 🔴 Commit.
 
 // G. Monkey in the Middle
 // Write an if ... else if ... else statement:
-
 // console.log() little number if the number entered is less than 5.
-
 // If the number entered is more than 10, log big number.
-
 // Otherwise, log "monkey". 
+for(let i = 0; i <= 20; i++) {
+    if(i < 5) {
+        console.log('Little number');
+    } else if(i >= 10) {
+        console.log('big number');
+    } else {
+        (console.log('monkey'))
+    }
+};
 
 // 🔴 Commit.
 
