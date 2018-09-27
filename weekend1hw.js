@@ -136,16 +136,15 @@
 
 // III. Arrays & Control flow
 // A. Talk about it:
-What are the things in an array called? Elements
+// What are the things in an array called? Elements
+// Do Arrays guarantee those things will be in order? Arrays guarantee the order that you put the elements in
+// What real-life thing could you model with an array? Breeds of cats
 
-Do Arrays guarantee those things will be in order? Arrays guarantee the order that you put the elements in
-
-What real-life thing could you model with an array? Breeds of cats
-
-// 🔴 Commit.
 
 // B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes.
+const quotes = ['hi there', 'goodbye', 'how are you']
+
 // 🔴 Commit.
 
 // C. Accessing elements
