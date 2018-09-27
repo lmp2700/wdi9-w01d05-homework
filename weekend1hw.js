@@ -9,7 +9,6 @@
 // Remind me, what are declare, assign, and define? you declare a variable with const, you define a variable after you provide a value and assign is the same as define.
 // What is pseudocoding and why should you do it? Pseudocoding is typing out all of your code ahead of time
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it? 70% time should be spent pseudocoding, the rest should be spent actually coding
-// 🔴 Commit.
 
 // --> B. Strings
 // Create a variable called firstVariable.
@@ -30,23 +29,22 @@
 // C. Booleans
 // Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be 
 // all be valid JS syntax and not weird things that don't make sense but happen to print true to the console.
-  const a = 4;
-  const b = 53;
-  const c = 57;
-  const d = 16;
-  const e = 'Kevin';
+//   const a = 4;
+//   const b = 53;
+//   const c = 57;
+//   const d = 16;
+//   const e = 'Kevin';
 
-  console.log(a < b);
-  console.log(c > d);
-  console.log('Name' == 'Name');
-  console.log(true !== false);
-  console.log(false == false == false == false == false == false == true);
-  console.log(false == false)
-  console.log(e == 'Kevin');
-  console.log(a < b < c);
-  console.log(a !== a < d);
-  console.log(48 !== '48');
-// 🔴 Commit.
+//   console.log(a < b);
+//   console.log(c > d);
+//   console.log('Name' == 'Name');
+//   console.log(true !== false);
+//   console.log(false == false == false == false == false == false == true);
+//   console.log(false == false)
+//   console.log(e == 'Kevin');
+//   console.log(a < b < c);
+//   console.log(a !== a < d);
+//   console.log(48 !== '48');
 
 // D. The farm
 // Declare a variable animal. Set it to be either "cow" or something else.
@@ -54,6 +52,12 @@
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 // Commit.
 // 🔴 Commit.
+const animal = () => {
+if(animal === 'cow'); {
+    console.log("mooo")
+    }
+}
+animal('cow')
 
 // E. Driver's Ed
 // Make a variable that will hold a person's age. Be semantic.
