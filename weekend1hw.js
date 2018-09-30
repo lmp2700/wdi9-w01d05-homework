@@ -488,14 +488,51 @@
 //     age: 85
 // }
 // When we console.log user, we would see the friend object added to our user object.
+// const user = {
+//   name: 'Hello Fresh',
+//   email: 'email@gmail.com',
+//   age: 22,
+//   purchased: []
+// }
+
+// Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+// user.friend = {
+//   name: "Grace Hopper",
+//   age: 85,
+//   purchased: [],
+//   location: 'Denver',
+// }
+
+// Console.log just the friend's name
+// console.log(user.friend.name)
+// // Console.log just the friend's location
+// console.log(user.friend.location)
+// // CHANGE the friend's age to 55
+// user.friend.age = 55
+// console.log(user.friend)
+// // The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+// user.friend.purchased.push('The One Ring')
+// console.log(user.friend)
+// // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+// user.friend.purchased.push('A latte')
+// console.log(user.friend)
+// // Console.log just "A latte" from the friend's purchased array.
+// console.log(user.friend.purchased[1])
+
+
+// F. Loops
+// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
 const user = {
   name: 'Hello Fresh',
   email: 'email@gmail.com',
   age: 22,
   purchased: []
 }
+for(let key in user) {
+  console.log(user[key])
+}
 
-// Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 user.friend = {
   name: "Grace Hopper",
   age: 85,
@@ -503,26 +540,10 @@ user.friend = {
   location: 'Denver',
 }
 
-// Console.log just the friend's name
-console.log(user.friend.name)
-// Console.log just the friend's location
-console.log(user.friend.location)
-// CHANGE the friend's age to 55
-user.friend.age = 55
-console.log(user.friend)
-// The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
-user.friend.purchased.push('The One Ring')
-console.log(user.friend)
-// The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
-user.friend.purchased.push('A latte')
-console.log(user.friend)
-// Console.log just "A latte" from the friend's purchased array.
-console.log(user.friend.purchased[1])
-// 🔴 Commit.
+for(let key in user.friend) {
+  console.log(user.friend[key])
+}
 
-// F. Loops
-// Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
-// Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
 // 🔴 Commit.
 
 // G. Functions can operate on objects
