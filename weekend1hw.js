@@ -455,15 +455,20 @@ const user = {
   purchased: []
 }
 
-// 🔴 Commit.
-
 // B. Update the user
 // Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
+user.email = 'newemail@gmail.com'
+console.log(user)
+
 // Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
 // 🔴 Commit.
+user.age++
+console.log(user)
 
 // C. Adding keys and values
 // You have decided to add your user's location to the data that you want to collect.
+user.location = 'Chicago'
+console.log(user)
 
 // Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
 // 🔴 Commit.
