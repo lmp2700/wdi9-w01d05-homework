@@ -305,8 +305,11 @@
 // B. printCool
 // Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying 
 // that that person is cool.
+const printCool = (name) => {
+  console.log(`${name} is cool`);
+}
+printCool('Captain Reynolds')
 
-// console.log(printCool("Captain Reynolds"));
 // => "Captain Reynolds is cool";
 // 🔴 Commit.
 
@@ -522,31 +525,28 @@
 
 // F. Loops
 // Write a for loop that iterates over the User's purchased array (NOT the friend's purchased array), and prints each element to the console.
-const user = {
-  name: 'Hello Fresh',
-  email: 'email@gmail.com',
-  age: 22,
-  purchased: []
-}
-for(let key in user) {
-  console.log(user[key])
-}
+// const user = {
+//   name: 'Hello Fresh',
+//   email: 'email@gmail.com',
+//   age: 22,
+//   purchased: []
+// }
+// for(let key in user) {
+//   console.log(user[key])
+// }
 
 // Write a for loop that iterates over the Friend's purchased array, and prints each element to the console.
-user.friend = {
-  name: "Grace Hopper",
-  age: 85,
-  purchased: [],
-  location: 'Denver',
-}
+// user.friend = {
+//   name: "Grace Hopper",
+//   age: 85,
+//   purchased: [],
+//   location: 'Denver',
+// }
+// for(let key in user.friend) {
+//   console.log(user.friend[key])
+// }
 
-for(let key in user.friend) {
-  console.log(user.friend[key])
-}
-
-// 🔴 Commit.
-
-// G. Functions can operate on objects
+// --> G. Functions can operate on objects
 // Write a single function updateUser that takes no parameters. When the function is run, it should:
 // it should increment the user's age by 1
 // make the user's name uppercase
