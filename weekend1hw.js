@@ -318,26 +318,33 @@
 
 // C. calculateCube
 // Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
-const calculateCube = (num) => {
-  return num * num * num
-}
-calculateCube(5);
-const cubeResults = calculateCube(5)
-console.log(cubeResults)
+// const calculateCube = (num) => {
+//   return num * num * num
+// }
+// calculateCube(5);
+// const cubeResults = calculateCube(5)
+// console.log(cubeResults)
 
 // console.log(calculateCube(5));
 // => 125
-// 🔴 Commit.
 
 // D. isVowel
+// ONLY RETURNING TRUE - CANNOT GET FALSE TO WORK
 // Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. 
 // The vowel could be upper or lower case.
 
-// const isVowel = ("a") => {
+const isVowel = (str) => {
+  let vowelCount = 0;
+  const string = str.toString();
+  for(let i = 0; i <= string.length - 1; i++) {
+    if (string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u") {
+      vowelCount += 1
+    }
+  }
+  return true
+} 
+console.log(isVowel("a"));
 
-// } 
-
-// console.log(isVowel("a"));
 // => true
 // 🔴 Commit.
 
