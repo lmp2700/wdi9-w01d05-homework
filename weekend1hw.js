@@ -293,10 +293,10 @@
 // A. printGreeting
 // Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument 
 // interpolated into the greeting?
-const printGreeting = (name) => {
-  console.log(`Hello there, ${name}!`)
-}
-printGreeting('Slimer')
+// const printGreeting = (name) => {
+//   console.log(`Hello there, ${name}!`)
+// }
+// printGreeting('Slimer')
 
 // Like so?
 // console.log(printGreeting("Slimer"));
@@ -304,7 +304,6 @@ printGreeting('Slimer')
 
 // You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, 
 // read entire problems carefully before doing them from now on.
-// 🔴 Commit.
 
 // B. printCool
 // Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying 
@@ -319,6 +318,12 @@ printGreeting('Slimer')
 
 // C. calculateCube
 // Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+const calculateCube = (num) => {
+  return num * num * num
+}
+calculateCube(5);
+const cubeResults = calculateCube(5)
+console.log(cubeResults)
 
 // console.log(calculateCube(5));
 // => 125
