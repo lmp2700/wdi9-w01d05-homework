@@ -467,21 +467,30 @@ console.log(user)
 
 // C. Adding keys and values
 // You have decided to add your user's location to the data that you want to collect.
+// Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
 user.location = 'Chicago'
 console.log(user)
-
-// Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
-// 🔴 Commit.
 
 // D. Shopaholic!
 // Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased 
 // array.
+user.purchased.push('carbohydrates')
+console.log(user)
+
 // Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased 
 // array.
+user.purchased.push('peace of mind')
+console.log(user)
+
 // Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the 
 // purchased array.
+user.purchased.push('Merino jodhpurs')
+console.log(user)
+
 // Console.log just the "Merino jodhpurs" from the purchased array.
+console.log(user.purchased[2])
 // 🔴 Commit.
+
 
 // E. Object-within-object
 // Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
