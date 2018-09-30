@@ -300,7 +300,6 @@
 
 // You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, 
 // read entire problems carefully before doing them from now on.
-
 // 🔴 Commit.
 
 // B. printCool
@@ -309,7 +308,6 @@
 
 // console.log(printCool("Captain Reynolds"));
 // => "Captain Reynolds is cool";
-
 // 🔴 Commit.
 
 // C. calculateCube
@@ -317,7 +315,6 @@
 
 // console.log(calculateCube(5));
 // => 125
-
 // 🔴 Commit.
 
 // D. isVowel
@@ -330,7 +327,6 @@
 
 // console.log(isVowel("a"));
 // => true
-
 // 🔴 Commit.
 
 // E. getTwoLengths
@@ -339,7 +335,6 @@
 
 // console.log(getTwoLengths("Hank", "Hippopopalous"));
 // => [4, 13]
-
 // 🔴 Commit.
 
 // F. getMultipleLengths
@@ -357,7 +352,6 @@
 
 // console.log(maxOfThree(6, 9, 1));
 // => 9
-
 // 🔴 Commit.
 
 // H. printLongestWord
@@ -366,7 +360,6 @@
 
 // console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 // => "Peanutbutter"
-
 // 🔴 Commit.
 
 // I. transmogrify
@@ -379,7 +372,6 @@
 
 // console.log(transmogrify(5, 3, 2));
 // => 225
-
 // 🔴 Commit.
 
 // J. reverseWordOrder v2
@@ -400,7 +392,6 @@
 
 // console.log(reverseWordOrder("I use Lâncome on my comb"));
 // => "comb my on Lâncome use I"
-
 // 🔴 Commit.
 
 // K. Get down and dirty with Math.random()
@@ -438,7 +429,6 @@
 //   let getRandomElement = quotes[Math.floor(Math.random() * quotes.length)];
 //   console.log(getRandomElement);
 // }
-
 // 🔴 Commit.
 
 // Objects
@@ -448,6 +438,56 @@
 // Create an object called user.
 // Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. 
 // Set the other values to whatever you would like.
+// const user = {
+//   name: 'Hello Fresh',
+//   email: 'email@gmail.com',
+//   age: 22,
+//   purchased: []
+// }
+
+// // B. Update the user
+// // Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
+// user.email = 'newemail@gmail.com'
+// console.log(user)
+
+// // Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
+// user.age++
+// console.log(user)
+
+// C. Adding keys and values
+// You have decided to add your user's location to the data that you want to collect.
+// Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
+// user.location = 'Chicago'
+// console.log(user)
+
+// // D. Shopaholic!
+// // Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased 
+// // array.
+// user.purchased.push('carbohydrates')
+// console.log(user)
+
+// // Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased 
+// // array.
+// user.purchased.push('peace of mind')
+// console.log(user)
+
+// // Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the 
+// // purchased array.
+// user.purchased.push('Merino jodhpurs')
+// console.log(user)
+
+// // Console.log just the "Merino jodhpurs" from the purchased array.
+// console.log(user.purchased[2])
+
+
+// E. Object-within-object
+// Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
+// If we want to give our user a friend with a name and age, we could write:
+// user.friend = {
+//     name: "Grace Hopper",
+//     age: 85
+// }
+// When we console.log user, we would see the friend object added to our user object.
 const user = {
   name: 'Hello Fresh',
   email: 'email@gmail.com',
@@ -455,61 +495,29 @@ const user = {
   purchased: []
 }
 
-// B. Update the user
-// Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
-user.email = 'newemail@gmail.com'
-console.log(user)
-
-// Our user has had a birthday! Without changing the original user object, increment the age value using the postfix operator. Hint: age++
-// 🔴 Commit.
-user.age++
-console.log(user)
-
-// C. Adding keys and values
-// You have decided to add your user's location to the data that you want to collect.
-// Without changing the original user object, add a new key location to the object, and give it a value or some-or-other location (a string).
-user.location = 'Chicago'
-console.log(user)
-
-// D. Shopaholic!
-// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased 
-// array.
-user.purchased.push('carbohydrates')
-console.log(user)
-
-// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased 
-// array.
-user.purchased.push('peace of mind')
-console.log(user)
-
-// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the 
-// purchased array.
-user.purchased.push('Merino jodhpurs')
-console.log(user)
-
-// Console.log just the "Merino jodhpurs" from the purchased array.
-console.log(user.purchased[2])
-// 🔴 Commit.
-
-
-// E. Object-within-object
-// Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
-
-// If we want to give our user a friend with a name and age, we could write:
-
-// user.friend = {
-//     name: "Grace Hopper",
-//     age: 85
-// }
-// When we console.log user, we would see the friend object added to our user object.
-
 // Write a friend object into your user object and give the friend a name, age, location, and purchased array (empty for now)
+user.friend = {
+  name: "Grace Hopper",
+  age: 85,
+  purchased: [],
+  location: 'Denver',
+}
+
 // Console.log just the friend's name
+console.log(user.friend.name)
 // Console.log just the friend's location
+console.log(user.friend.location)
 // CHANGE the friend's age to 55
+user.friend.age = 55
+console.log(user.friend)
 // The friend has purchased "The One Ring". Use .push() to add "The One Ring" to the friend's purchased array.
+user.friend.purchased.push('The One Ring')
+console.log(user.friend)
 // The friend has purchased "A latte". Use .push() to add "A latte" to the friend's purchased array.
+user.friend.purchased.push('A latte')
+console.log(user.friend)
 // Console.log just "A latte" from the friend's purchased array.
+console.log(user.friend.purchased[1])
 // 🔴 Commit.
 
 // F. Loops
