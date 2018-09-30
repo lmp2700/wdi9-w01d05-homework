@@ -116,14 +116,23 @@
 // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
 // 🔴 Commit.
 
-// D. Savings account
+// --> D. Savings account
+// PRINTING NAN
 // Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// Check your work! Your banck_account should have $55 in it.
+// Check your work! Your bank_account should have $55 in it.
 // You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 // Check your work! Your banck_account should have $10,100 in it.
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let bank_account = 0;
+// for(let i = 0; i <= num.length; i++) {
+//   bank_account = num[i] + num[i];
+// }
+// console.log(bank_account)
+
 // 🔴 Commit.
 
-// E. Multiples of 3 and 5
+// --> E. Multiples of 3 and 5
+// SAYS DO NOT DO, HOWEVER NEED PRACTICE
 // If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 // Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially 
 // solves this problem, look back at them.
@@ -185,7 +194,8 @@
 // console.log(myArray)
 // console.log(myArray.reverse())
 
-// F. Biggie Smalls
+// --> F. Biggie Smalls
+// PRINTING ALL 'LITTLE NUMBER' AND 'BIG NUMBER' - NO NUMBERS
 // Create a variable that contains an integer.
 // Write an if ... else statement that:
 // console.log()s "little number" if the number is entered is less than 100
@@ -198,7 +208,7 @@
 //         console.log('big number');
 //     }
 // }
-// console.log(variable(22));
+// console.log(variable);
 
 // 🔴 Commit.
 
@@ -220,80 +230,82 @@
 // H. What's in Your Closet?
 // Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
 // // Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 // What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + 
-the third item in Kristyn's closet + " today!" to the console.
-console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!')
+// the third item in Kristyn's closet + " today!" to the console.
+// console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!')
 
 // Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
-kristynsCloset.splice(6, 0, 'raybans')
-console.log(kristynsCloset)
+// kristynsCloset.splice(6, 0, 'raybans')
+// console.log(kristynsCloset)
 
 // Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
-kristynsCloset[5] = 'stained knit hat'
-console.log(kristynsCloset)
+// kristynsCloset[5] = 'stained knit hat'
+// console.log(kristynsCloset)
 
 // Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
-console.log(thomsCloset[0][0]);
+// console.log(thomsCloset[0][0]);
 
 // In the same way, access one item from Thom's pants array.
-console.log(thomsCloset[1][2]);
+// console.log(thomsCloset[1][2]);
 
 // Access one item from Thom's accessories array.
-console.log(thomsCloset[2][1])
+// console.log(thomsCloset[2][1])
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
-console.log('Thom is looking fierce in a ' + thomsCloset[0][0] + ', ' +  thomsCloset[1][1] + ' and a ' + thomsCloset[2][1] + '!')
+// console.log('Thom is looking fierce in a ' + thomsCloset[0][0] + ', ' +  thomsCloset[1][1] + ' and a ' + thomsCloset[2][1] + '!')
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
-thomsCloset[1][2] = 'footie pajamas'
-console.log(thomsCloset)
+// thomsCloset[1][2] = 'footie pajamas'
+// console.log(thomsCloset)
 
-// 🔴 Commit.
 
-// IV. Functions
+// --> IV. Functions
+// NEED TO RE DO FOR PRACTICE
 // A. printGreeting
-// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument 
+// interpolated into the greeting?
 
 // Like so?
-
 // console.log(printGreeting("Slimer"));
 // => Hello there, Slimer!
 
-// You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, read entire problems carefully before doing them from now on.
+// You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, 
+// read entire problems carefully before doing them from now on.
 
 // 🔴 Commit.
 
 // B. printCool
-// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying 
+// that that person is cool.
 
 // console.log(printCool("Captain Reynolds"));
 // => "Captain Reynolds is cool";
@@ -309,7 +321,12 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // D. isVowel
-// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. 
+// The vowel could be upper or lower case.
+
+// const isVowel = ("a") => {
+
+// } 
 
 // console.log(isVowel("a"));
 // => true
@@ -317,7 +334,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // E. getTwoLengths
-// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+// Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each 
+// number is the length of the corresponding string.
 
 // console.log(getTwoLengths("Hank", "Hippopopalous"));
 // => [4, 13]
@@ -325,7 +343,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // F. getMultipleLengths
-// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should 
+// return an array of numbers where each number is the length of the corresponding string.
 
 // console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 // => [5, 4, 2, 2, 4]
@@ -333,7 +352,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // G. maxOfThree
-// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, 
+// it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
 
 // console.log(maxOfThree(6, 9, 1));
 // => 9
@@ -341,7 +361,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // H. printLongestWord
-// Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+// Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word 
+// in the array. In case of a tie, the method should return the word that appears first in the array.
 
 // console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 // => "Peanutbutter"
@@ -349,7 +370,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // I. transmogrify
-// Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. Your function should return the "transmogrified" result.
+// Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. 
+// Your function should return the "transmogrified" result.
 
 // The transmogrified result of three numbers is the product of the first two numbers, raised to the power of the third number.
 
@@ -361,7 +383,8 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // J. reverseWordOrder v2
-// Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
+// Without using .split(), .reverse(), or .join(), write a function reverseWordOrder that accepts a single argument, a string. The 
+// function should return a string with the order of the words reversed. Don't worry about punctuation.
 
 // See if you can do it without googling.
 
@@ -382,18 +405,50 @@ console.log(thomsCloset)
 
 // K. Get down and dirty with Math.random()
 // Write a function that will return a random integer between 1 and 10. Test it.
+// const random = (min, max) => {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min)) + min;
+// }
+// console.log(random(1, 10))
 // Write a function that will return a random integer between 10 and 100. Test it.
+// const random = (min, max) => {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min)) + min;
+// }
+// console.log(random(10, 100))
 // Write a function that will return a random number between 532 and 13267. Test it.
+// const random = (min, max) => {
+//   return Math.floor(Math.random() * Math.floor(max - min) + min);
+// }
+// console.log(random(532, 13267))
 // Write a function that will return a random number between 1 and 10. Test it.
-// Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic name like getRandomElement.
+// const random = (min, max) => {
+//   return Math.floor(Math.random() * Math.floor(max - min) + min);
+// }
+// console.log(random(1, 10))
+
+// --> Add a few more quotes to the quotes array from question III-B-1 above. Write a function that will take an array as a parameter, 
+// and return a random element from that array. Call your function a few times, passing in the quotes array. Give it a nice semantic 
+// name like getRandomElement.
+
+// const quotes = ['hi there', 'goodbye', 'how are you', 'what the fork']
+// const getArray = () => {
+//   let getRandomElement = quotes[Math.floor(Math.random() * quotes.length)];
+//   console.log(getRandomElement);
+// }
+
 // 🔴 Commit.
 
 // Objects
-// Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we want to store that user's data. The object data structure is a good way to organize the data from our user.
+// Let's set up an object data structure. Let's say we have a website that sells products, and we have a user of our website, and we 
+// want to store that user's data. The object data structure is a good way to organize the data from our user.
 
 // A. Make a user object
 // Create an object called user.
-// Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. Set the other values to whatever you would like.
+// Write in to the object the key-value pairs for name, email, age, and purchased. Set the value of purchased to an empty array []. 
+// Set the other values to whatever you would like.
 // 🔴 Commit.
 
 // B. Update the user
@@ -408,9 +463,12 @@ console.log(thomsCloset)
 // 🔴 Commit.
 
 // D. Shopaholic!
-// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased array.
-// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased array.
-// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the purchased array.
+// Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchased 
+// array.
+// Our user has purchased an item! They have purchased some "peace of mind". Using .push(), add the string "peace of mind" to the purchased 
+// array.
+// Our user has purchased an item! They have purchased some "Merino jodhpurs". Using .push(), add the string "Merino jodhpurs" to the 
+// purchased array.
 // Console.log just the "Merino jodhpurs" from the purchased array.
 // 🔴 Commit.
 
@@ -445,5 +503,7 @@ console.log(thomsCloset)
 // make the user's name uppercase
 // The function does not need a return statement, it will merely modify the user object.
 
-// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoud function with user as the argument.
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our user 
+// object, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. 
+// Call your oldAndLoud function with user as the argument.
 // 🔴 Commit.
